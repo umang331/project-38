@@ -172,7 +172,7 @@ function spawnClouds() {
 
 function spawnObstacles() {
   if(frameCount % 400 === 0){
-    var pterosaurs  = createSprite(600,730,20,20);
+    var pterosaurs  = createSprite(600,700,20,20);
     pterosaurs.addImage(pterosaursi)
     pterosaurs.setCollider('circle',0,0,45)
     pterosaurs.velocityX = -(6 + 3*score/100);
